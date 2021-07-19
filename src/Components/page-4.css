@@ -55,8 +55,12 @@
   padding-top: 0;
   font-weight: book;
   font-size: 46px;
-  line-height: 25px;
+  line-height: 46px;
   color: #7b7b84;
+}
+
+.bottom-pad {
+  padding-bottom: 300px;
 }
 @media only screen and (max-width: 1300px) {
   .header-mail-section {
@@ -64,18 +68,10 @@
     padding-top: 0;
     font-weight: book;
     font-size: 46px;
-    line-height: 25px;
+    line-height: 46px;
     color: #7b7b84;
   }
-  .header-mail-section {
-    padding: 28px;
-    font-family: GothamPro;
-    font-weight: book;
-    font-size: 23px;
-    line-height: 120%;
-    line-height: 25px;
-    color: #7b7b84;
-  }
+
   .heading-4 {
     /* top: 50%; */
     font-family: GothamPro;

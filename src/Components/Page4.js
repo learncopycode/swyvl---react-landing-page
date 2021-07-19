@@ -71,7 +71,7 @@ export const Page4 = () => {
 
         <div>
 
-            <div ref={ref3} className="page-4 fadeIn2">
+            <div ref={ref3} className="page-4 fadeIn2 bottom-pad">
                 <div className="container ">
                     <div className="row">
                         <div className="content-page-4">
