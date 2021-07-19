@@ -27,10 +27,9 @@
   margin: auto;
 }
 .centrify {
-  width: 397px;
+  width: 444px;
   margin: auto;
   position: relative;
-  /* padding-left: 10px; */
 }
 .absolute-placement {
   position: absolute !important;
