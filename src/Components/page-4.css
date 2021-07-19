@@ -27,9 +27,10 @@
   margin: auto;
 }
 .centrify {
-  width: 260px;
+  width: 397px;
   margin: auto;
-  padding-left: 10px;
+  position: relative;
+  /* padding-left: 10px; */
 }
 .absolute-placement {
   position: absolute !important;
@@ -42,8 +43,8 @@
   top: 50%;
   font-family: GothamPro;
   font-weight: bold;
-  /*font-size: 68px;*/
-  font-size: 84px;
+  /* font-size: 68px; */
+  font-size: 75px;
   line-height: 120%;
   text-align: center;
   letter-spacing: -0.02em;
@@ -69,7 +70,7 @@
     font-family: GothamPro;
     font-weight: bold;
     /* font-size: 68px; */
-    font-size: 84px;
+    font-size: 61px;
     line-height: 120%;
     text-align: center;
     letter-spacing: -0.02em;
@@ -89,7 +90,7 @@
     font-family: GothamPro;
     font-weight: bold;
     /* font-size: 68px; */
-    font-size: 54px;
+    font-size: 51px;
     line-height: 120%;
     text-align: center;
     letter-spacing: -0.02em;
@@ -117,7 +118,7 @@
     /* top: 50%; */
     font-family: GothamPro;
     font-weight: bold;
-    font-size: 54px;
+    font-size: 39px;
     line-height: 120%;
     text-align: center;
     letter-spacing: -0.02em;
@@ -140,13 +141,13 @@
     /* top: 50%; */
     font-family: GothamPro;
     font-weight: bold;
-    font-size: 33px;
+    font-size: 29px;
     line-height: 120%;
     text-align: center;
     letter-spacing: -0.02em;
     color: #0b1e15;
     position: relative;
-    top: -225px;
+    top: -258px;
     /* bottom: 0; */
   }
   .centerit > img {
@@ -265,7 +266,7 @@
     top: -27.1vh;
     font-family: GothamPro;
     font-weight: bold;
-    font-size: 33px;
+    font-size: 22px;
     line-height: 120%;
     text-align: center;
     letter-spacing: -0.02em;
@@ -292,10 +293,65 @@ input[type='text'].inputcust {
   border-radius: 20px;
   border: 2px solid #505ed8;
   color: #a0d18c;
-  width: 210px;
-  height: 30px;
-  font-size: 10px;
+  width: 340px;
+  height: 46px;
+  font-weight: book;
+  font-size: 21px;
+  line-height: 25px;
   padding-left: 10px;
   -webkit-appearance: none;
   outline: none;
+}
+input[type='submit'] {
+  border-radius: 20px;
+  border: 2.5px solid #505ed8;
+  background-color: #505ed8;
+  color: white;
+  width: 136px;
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 22px;
+  letter-spacing: 0em;
+  /* text-align: left; */
+  color: #ffffff;
+  height: 45.5px;
+  padding-left: 10px;
+  right: 0;
+  margin-top: 0px;
+  position: absolute;
+  /* margin-left: -65px; */
+  padding-top: 1px;
+}
+
+@media only screen and (max-width: 500px) {
+  .centrify {
+    width: 227px;
+    margin: auto;
+    position: relative;
+    /* padding-left: 10px; */
+  }
+  input[type='text'].inputcust {
+    border-radius: 20px;
+    border: 2px solid #505ed8;
+    color: #a0d18c;
+    width: 210px;
+    height: 30px;
+    font-size: 10px;
+    padding-left: 10px;
+    -webkit-appearance: none;
+    outline: none;
+  }
+  input[type='submit'] {
+    border-radius: 20px;
+    border: 2.5px solid #505ed8;
+    background-color: #505ed8;
+    color: white;
+    width: 76px;
+    font-size: 10px;
+    height: 30px;
+    padding-left: 10px;
+    margin-left: -65px;
+    padding-top: 1px;
+  }
 }

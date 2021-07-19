@@ -11,7 +11,7 @@ import {
 export const Page1 = () => {
     return (
         <div>
-            <div className="footer">
+            <div className="footer pad-top">
                 <div className="container-fluid footerback">
                     <div className="container">
                         <div className="row ">
