@@ -1,0 +1,25 @@
+.footerback {
+  background-color: #212332;
+}
+.footer {
+  margin-top: 300px;
+}
+.contactinfo {
+  width: 300px;
+}
+@media only screen and (max-width: 768px) {
+  .text-cen-sm {
+    text-align: center;
+  }
+  .mid {
+    padding-top: 30px;
+    display: block;
+    width: 160px;
+    margin: auto;
+  }
+  .contactinfo {
+    width: 300px;
+    margin: auto;
+    margin-top: 40px;
+  }
+}

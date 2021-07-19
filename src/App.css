@@ -1,38 +1,183 @@
+@import url(https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css);
+.page-1 {
+  height: 100vh;
+
+  /* margin-top: 18%; */
+  padding-top: 340px;
+}
 .App {
+  overflow-x: hidden;
+}
+
+.a100 {
+  width: 100vw;
+  height: 100vh;
+}
+.back {
+  width: 100%;
+  height: 100vh;
+  background-color: #212332;
+}
+
+.middle {
+  width: 300px;
+  margin: auto;
+  padding: 0;
+  padding-top: 50vh;
+}
+.middle > img {
+  display: block;
+  position: relative;
+  top: 50%;
+}
+
+.example-appear {
+  opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
+.pl-4 {
+  padding-left: 4px;
+}
+
+h3.hero {
+  font-family: GothamPro;
+
+  font-size: 18px;
+
+  font-weight: bold;
+
+  line-height: 30px;
+
+  letter-spacing: 0.04em;
+
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button.hero {
+  font-family: GothamPro;
+
+  font-weight: bold;
+
+  font-size: 18px;
+
+  line-height: 22px;
+
+  color: #ffffff;
+}
+.placeholder-hero {
+  font-family: GothamPro;
+
+  font-style: normal;
+
+  font-weight: normal;
+
+  font-size: 18px;
+
+  line-height: 22px;
+
+  color: #899c91;
+}
+h2.inner-h2 {
+  font-family: GothamPro;
+
+  font-weight: bold;
+
+  font-size: 53.9069px;
+
+  line-height: 120%;
+
+  letter-spacing: -0.01em;
+
+  color: #212332;
+}
+.para.innerpara {
+  font-family: GothamPro;
+
+  font-weight: book;
+
+  font-size: 18px;
+
+  line-height: 160%;
+
+  text-align: left;
+
+  letter-spacing: 0.01em;
+
+  color: #ffffff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.display-mobile-section {
+  font-family: GothamPro;
+
+  font-weight: bold;
+
+  font-size: 84px;
+
+  line-height: 120%;
+
+  text-align: center;
+
+  letter-spacing: -0.02em;
+
+  color: #0b1e15;
+}
+.header-mail-section {
+  font-family: GothamPro;
+
+  font-style: bold;
+
+  font-size: 46px;
+
+  line-height: 120%;
+
+  text-align: center;
+
+  letter-spacing: -0.01em;
+
+  color: #0b1e15;
+}
+.button-mail-section {
+  font-family: GothamPro;
+
+  font-size: 18px;
+
+  font-weight: bold;
+
+  line-height: 22px;
+
+  letter-spacing: 0em;
+
+  text-align: left;
+  color: #ffffff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.placeholder-mail-section {
+  font-family: GothamPro;
+
+  font-weight: book;
+
+  font-size: 46px;
+
+  line-height: 120%;
+
+  line-height: 25px;
+
+  color: #7b7b84;
+}
+#container2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.panel {
+  position: absolute;
+  will-change: transform;
 }

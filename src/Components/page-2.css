@@ -1,0 +1,262 @@
+.dot {
+  position: absolute;
+  width: 32%;
+  bottom: 26%;
+  left: 10%;
+}
+.right > img {
+  width: 100%;
+}
+.right {
+  position: absolute;
+  width: 65%;
+  bottom: 39%;
+}
+
+.dot > img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1300px) {
+  .dot {
+    position: absolute;
+    width: 28%;
+    bottom: 20%;
+    left: 6%;
+  }
+  .right {
+    position: absolute;
+    width: 45%;
+    bottom: 29%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .dot {
+    position: absolute;
+    width: 29%;
+    bottom: 14%;
+    left: 6%;
+  }
+  .right {
+    position: absolute;
+    width: 46%;
+    bottom: 21%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .dot {
+    position: absolute;
+    width: 22%;
+    bottom: 72%;
+    left: 26%;
+  }
+  .right {
+    position: absolute;
+    width: 47%;
+    bottom: 110%;
+    left: 10%;
+  }
+}
+@media only screen and (max-width: 427px) {
+  .dot {
+    position: absolute;
+    width: 22%;
+    bottom: 52%;
+    left: 26%;
+  }
+  .right {
+    position: absolute;
+    width: 42%;
+    bottom: 75%;
+    left: 16%;
+  }
+}
+
+.bot {
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+}
+.page-2 {
+  width: 80%;
+  margin: auto;
+  transform-origin: top;
+  height: 100vh;
+  position: relative;
+  background-color: #d6f7ee;
+}
+
+.b25 {
+  padding-bottom: 25vh;
+}
+.top1 {
+  padding-top: 23%;
+}
+.content-page-2 {
+  height: 100vh;
+}
+.image-2 {
+  position: relative;
+}
+.specific > img {
+  display: block;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1300px) {
+  .specific > img {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 75%;
+  }
+}
+
+p.innerpara {
+  margin-left: 2px;
+  font-family: GothamPro;
+
+  font-weight: book;
+
+  font-size: 18px;
+
+  line-height: 160%;
+
+  text-align: left;
+
+  letter-spacing: 0.01em;
+}
+.content-page-2 {
+  padding-left: 100px;
+}
+
+h2.inner-h2 {
+  font-family: GothamPro;
+
+  font-weight: bold;
+
+  font-size: 53.9069px;
+
+  line-height: 120%;
+
+  letter-spacing: -0.01em;
+
+  color: #212332;
+}
+
+@media only screen and (max-width: 1300px) {
+  h2.inner-h2 {
+    font-family: GothamPro;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    color: #212332;
+  }
+}
+@media only screen and (max-width: 900px) {
+  h2.inner-h2 {
+    font-family: GothamPro;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .center-form-1 {
+    width: 76% !important;
+    margin: auto;
+  }
+
+  .content-page-2 {
+    padding-left: 0;
+  }
+
+  .specific > img {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 86%;
+  }
+  .specific2 > img {
+    display: block;
+    position: relative;
+    top: 0;
+    width: 90%;
+  }
+  .absolute-placement {
+    position: absolute !important;
+    bottom: 130px;
+    left: 43%;
+    margin-left: -39%;
+  }
+
+  element.style {
+  }
+  .text-center {
+    text-align: center !important;
+  }
+  .heading-4 {
+    top: 50%;
+    font-family: GothamPro;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #0b1e15;
+  }
+  .placeholder-mail-section {
+    padding: 100px;
+    font-family: GothamPro;
+    font-weight: book;
+    font-size: 21px;
+    line-height: 120%;
+    line-height: 25px;
+    color: #7b7b84;
+  }
+  .top2 {
+    padding-top: 0;
+    padding-left: 0 !important;
+  }
+  .centerit > img {
+    display: block;
+    width: 75%;
+    margin: auto;
+    margin-top: 60px;
+  }
+}
+@media only screen and (max-width: 768px) and (max-height: 1072px) {
+  .specific > img {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 16%;
+    width: 61%;
+  }
+}
+@media only screen and (max-width: 768px) and (max-height: 1072px) {
+  .specific2 > img {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 15.4%;
+    width: 62%;
+  }
+}
+@media only screen and (max-width: 429px) and (max-height: 1072px) {
+  h2.inner-h2 {
+    font-family: GothamPro;
+    font-weight: 550;
+    font-size: 30px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    color: #212332;
+  }
+}
