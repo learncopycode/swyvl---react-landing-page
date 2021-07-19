@@ -2,7 +2,7 @@
   background-color: #212332;
 }
 .footer {
-  margin-top: 300px;
+  margin-top: 150px;
 }
 .contactinfo {
   width: 300px;
@@ -22,7 +22,4 @@
     margin: auto;
     margin-top: 40px;
   }
-}
-.pad-top {
-  padding-top: 30px;
 }

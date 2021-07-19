@@ -11,9 +11,9 @@ import {
 export const Page1 = () => {
     return (
         <div>
-            <div className="footer pad-top">
+            <div className="footer ">
                 <div className="container-fluid footerback">
-                    <div className="container">
+                    <div className="container ">
                         <div className="row ">
 
                             <div className="col-12 col-md-6 padding ">
